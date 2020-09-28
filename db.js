@@ -155,7 +155,7 @@
           descricao:'Apartamento T3 em uma zona residencial muito tranquila. Junto ao Parque da Quinta das Conchas com vista sobre o mesmo. Próximo ao mercado, hospital Pulido Valente, farmácia, cafés. A poucos minutos (a pé) da estação do metro Quinta das Conchas. Possui dispensa e arrecadação'
         },
         {
-          item: 11,
+          item: 12,
           freguesia: '',
           valor: "537.000",
           quartos: 2,
