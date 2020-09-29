@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<table id="tbPodio" class="table table-bordered">
+  <thead>
+      <tr class="thead-light">
+          <th>Sit</th>
+          <th>Autor</th>
+          <th>Título</th>
+          <th>Ano</th>
+          <th>UC</th>
+          <th>Link</th>
+      </tr>
+  </thead>
+  <tbody>
+
+  </tbody>
+</table>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="bibliografiaDB.js"></script>
+<script>
+
+const filtrae = bibliografia.filter((item)=> {
+  return item.situacao === 'U';
+}) // item se refere a cada objeto dentro do array
+console.log(filtrae);
+
+var podioPorPais = filtrae.map(function(item, indice){
+ return `<tr>
+             <td>${item.situacao}</td>
+             <td>${item.autor}</td>
+             <td>${item.titulo}</td>
+             <td>${item.ano}</td>
+             <td>${item.uc}</td>
+             <td><a href=${item.url}>click</a></td>
+         </tr>`;
+});
+
+document.querySelector("#tbPodio tbody").innerHTML = podioPorPais.join("");
+</script>
+
