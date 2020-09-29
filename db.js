@@ -146,7 +146,7 @@
           valor: "537.000€",
           quartos: 3,
           banheiro: '3',
-          m2: 140,
+          m2: 141,
           garagem: 'sim',
           eficiencia: 'B',
           imobiliaria: 'Daniel',
