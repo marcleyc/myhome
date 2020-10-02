@@ -109,5 +109,6 @@ var bibliografia = [
 {situacao:"U", autor:"Bela Balassa", titulo:"Teoria da Integração Económica", ano:1961, url:"", editora:"",uc:"Fac.Economia FTR 1328"},
 {situacao:"U", autor:"Sanford Gaines", titulo:"Liberalising trade in the EU and the WTO : a legal comparison", ano:2012, url:"http://search.ebscohost.com/login.aspx?direct=true&AuthType=cookie,ip,shib,uid&db=cat01014a&AN=ibu.b2566551&lang=pt-pt&site=eds-live", editora:"",uc:"Fac.Direito	J-56-30-18"}, 
 {situacao:"U", autor:"Bhagwati Jagdish", titulo:"A Stream of Windows – Unsettling Reflections on Trade", ano:1998, editora:"",uc:"Fac.Direito J-55-4", url:"http://eds.a.ebscohost.com/eds/detail/detail?vid=3&sid=585013ac-66a4-4289-af1c-593b39d5a5b3%40sessionmgr4008&bdata=JkF1dGhUeXBlPWNvb2tpZSxpcCxzaGliLHVpZCZsYW5nPXB0LXB0JnNpdGU9ZWRzLWxpdmU%3d#AN=ibu.b2069782&db=cat01014a"},
-{situacao:"", autor:"", titulo:"", ano:2, url:"", editora:"",uc:""},   
+{situacao:"U", autor:"Rovegno Laura", titulo:"Liberalising trade in the EU and the WTO : a legal comparison", ano:2012, pag:"440-466",url:"", editora:"",uc:"Fac.Direito J-56-30-18"},
+{situacao:"", autor:"", titulo:"", ano:2, url:"", editora:"",uc:""}, 
 ]
