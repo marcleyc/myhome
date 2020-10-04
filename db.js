@@ -226,6 +226,20 @@
         },
         {
           item: 17,
+          freguesia: 'Estrela',
+          valor: "540.000",
+          quartos: 2,
+          banheiro: '2',
+          m2: 108,
+          garagem: 'não',
+          eficiencia: 'B-',
+          imobiliaria: 'kW Ábaco',
+          maps:'',
+          link:'https://www.imovirtual.com/anuncio/t2-com-deslumbrante-vista-para-a-ponte-e-rio-tejo-em-empreendiment-ID13WYO.html#b74ebd8d04',
+          descricao:'Entre a Estrela e Alcântara, um T2 mesmo junto ao Palácio e Tapada das Necessidades, composto por 4 apartamentos, um por piso. Com uma localização privilegiada, tendo na sua proximidade o Hospital CUF Infante Santo, Museu Nacional de Arte Antiga e o Jardim 9 de Abril. Estando ainda próximo das Docas de Santos, Av. 24 de Julho e LX Factory, zonas com uma vasta oferta de restaurantes e vários estabelecimentos de diversão nocturna. Uma zona servida por uma vasta oferta de transportes públicos. Além da Fantástica vista frontal para o Rio Tejo e sua Ponte, tem a cozinha equipada com: Móveis de cozinha Fabri, Tampos da Corian, Cuba de lava loiça da Blanco, Placa vitrocerâmica, Exaustor,  Micro-ondas, Forno, Frigorifico Combinado, Máquina de lavar louça, Máquina de lavar roupa, Tudo equipamento Bosch. Outros equipamentos / materiais: Termo acumulador Ariston, Iluminação regulável, Misturadora retráctil, Pavimento Revigrés, Nas casas de banho temos mármore de Estremoz, misturadoras da Bruma e autoclismos Geberit, Pavimento é de betão afagado. Estores eléctricos, Ar condicionado Daikin Stylish, Janelas Reynaers SL38 com vidro duplo Silence e Extreme Cool'
+        },
+         {
+          item: 18,
           freguesia: '',
           valor: ".000",
           quartos: 2,
