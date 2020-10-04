@@ -212,6 +212,20 @@
         },
         {
           item: 16,
+          freguesia: 'Parque das Nações',
+          valor: "560.000",
+          quartos: 2,
+          banheiro: '2',
+          m2: 112.5,
+          garagem: 'sim',
+          eficiencia: 'C',
+          imobiliaria: 'jll',
+          maps:'',
+          link:'https://www.imovirtual.com/anuncio/apartamento-t2-com-garagem-no-parque-das-nacoes-lisboa-ID129TU.html#10e5783e89',
+          descricao:'Apartamento T2, na zona Sul do Parque das Nações, Lisboa, com garagem e varanda. Inserido em prédio com 2 elevadores. Este apartamento, possui pavimento em soalho de madeira na zona social e quartos, vidros duplos, aquecimento central e lareira na ampla e luminosa sala. Suite com closet e cozinha totalmente equipada com espaço de lavandaria. 2 lugares de estacionamento. Localizado a 5 minutos driving distance do Centro Comercial Vasco da Gama, da Estação do Oriente onde tem metro e comboio, e a 7 minutos do aeroporto de Lisboa.'
+        },
+        {
+          item: 17,
           freguesia: '',
           valor: ".000",
           quartos: 2,
