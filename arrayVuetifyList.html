@@ -1,0 +1,58 @@
+<html>
+ <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+<body>
+<div id="app">
+  <v-app id="inspire">
+    <v-card>
+      <v-card-title>
+        Apartamento
+        <v-spacer></v-spacer>
+        <v-text-field
+          v-model="search"
+          append-icon="mdi-magnify"
+          label="Search"
+          single-line
+          hide-details
+        ></v-text-field>
+      </v-card-title>
+      <v-data-table
+        :headers="headers"
+        :items="desserts"
+        :search="search"
+      ></v-data-table>
+    </v-card>
+  </v-app>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+<script src="db.js"></script>
+
+<script>
+  const db = this.vencedores;
+  console.log(db); 
+  new Vue({
+  el: '#app',
+  vuetify: new Vuetify(),
+  data () {
+    return {
+      search: '',
+      headers: [
+        { text: 'Item', align: 'start', sortable: false, value: 'item',},
+        { text: 'Freguesia', value: 'freguesia' },
+        { text: 'Valor', value: 'valor' },
+        { text: 'Quartos', value: 'quartos' },
+        { text: 'Banheiro', value: 'banheiro' },
+        { text: 'M2', value: 'm2' },
+        { text: 'Garagem', value: 'garagem' },
+        { text: 'Eficiência', value: 'eficiencia' },
+      ],
+      desserts : db,
+    }
+  },
+})
+</script>
+</html>
