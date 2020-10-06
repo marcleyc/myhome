@@ -117,5 +117,6 @@ var bibliografia = [
 {situacao:"U", autor:"Porto", titulo:"Economia: um texto introdutório", ano:2014, pag:"", editora:"",uc:"Fac.Direito J-56-34-32", url:""},
 {situacao:"U", autor:"Porto", titulo:"Economia: um texto introdutório", ano:2017, pag:"", editora:"",uc:"UC Fac.Direito	J-56-41-57", url:""}, 
 {situacao:"U", autor:"MEDEIROS E R", titulo:"Evolução e tendências da integração económica regional", ano:2008, pag:"", editora:"",uc:"Fac.Direito J-22-4-23, BG 9-(1)-7-42-50 c.2", url:""},
+{situacao:"", autor:"Arlindo Cunha", titulo:"A Política Agrícola Comum na Era da Globalização", ano:2004, pag:"", editora:"",uc:"FacDireito D-4-5-7, BG 8-(2)-18-27-35", url:""},
 {situacao:"", autor:"", titulo:"", ano:2, pag:"", editora:"",uc:"", url:""},  
 ]
