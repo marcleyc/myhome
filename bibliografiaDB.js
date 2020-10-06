@@ -112,5 +112,6 @@ var bibliografia = [
 {situacao:"U", autor:"Rovegno Laura", titulo:"Liberalising trade in the EU and the WTO : a legal comparison", ano:2012, pag:"440-466",url:"", editora:"",uc:"Fac.Direito J-56-30-18"},
 {situacao:"U", autor:"BALAAM D N; VESETH M", titulo:"Introduction to international political economy", ano:2005, pag:"533", url:"http://eds.b.ebscohost.com/eds/detail/detail?vid=2&sid=19c79e4e-737c-495a-9df5-57aac67c02dc%40sessionmgr103&bdata=JkF1dGhUeXBlPWNvb2tpZSxpcCxzaGliLHVpZCZsYW5nPXB0LXB0JnNpdGU9ZWRzLWxpdmU%3d#AN=ibu.b1747626&db=cat01014a", editora:"",uc:"UC Faculdade Economia	339.9 BAL"},
 {situacao:"U", autor:"Bela Balassa", titulo:"Teoria da integração económica", ano:1982, pag:"2", url:"", editora:"Livraria Clássica",uc:"Fac.Economia	D 339.9 BAL"},
-{situacao:"", autor:"", titulo:"", ano:2, pag:"", url:"", editora:"",uc:""},  
+{situacao:"U", autor:"Jagdish Bhagwati", titulo:"Writings on International Economics", ano:1997, pag:"", url:"", editora:"",uc:"Fac.Economia 339.9 BHA"},
+{situacao:"", autor:"", titulo:"", ano:2, pag:"", url:"", editora:"",uc:""}, 
 ]
